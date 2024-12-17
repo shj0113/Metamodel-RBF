@@ -6,27 +6,33 @@ Design of Advanced Energy Systems (IDAES)가 scientific community에서 자유�
 
 ## Installation
 ### Requirements
-필요한 패키지 설치(의존성 고려) 
-
+- python = 3.7
+- idaes-pse = 1.13.0
+  
 ### Virtual environment
-We first create a virtual environment to avoid dealing with other packages installed in the system:
+We highly recommend creating a virtual environment using [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) to manage versions and prevent conflicts with other packages.
 
-Test folder:
-$ mkdir Test && cd Test
-
-We create a virtual environment:
-$ python -m venv CodeName_venv
-
+We create a virtual environment with a name of your choice (e.g., `rbf`):
+```
+$ conda create -n rbf python=3.7
+```
 And activate it:
-$ source ./CodeName_venv/bin/activate
+```
+$ conda activate rbf
+```
 
 ### Dependencies and packages
-(CodeName_venv) $ pip install
+Install the required dependencies and packages using pip:
+```
+(rbf) $ pip install idaes-pse==1.13.0 
+(rbf) $ pip install scipy pandas numpy matplotlib
+```
+
 
 ## Usage
 This repository provides two Jupyter Notebooks:
-1. **Reproducing the results presented in the paper**
-2. **Training and testing the model with new data**
+1. **Reproducing the results presented in the paper:** `RadialBasisFunctions.ipynb`
+2. **Training and testing the model with new data:** `RadialBasisFunctions_Newdata.ipynb`
 
 ### 1. Reproducing the results from the paper
 To reproduce the results presented in the paper, follow these steps:
@@ -38,8 +44,8 @@ The required datasets, `curing_time_data.xlsx` and `flexural_strength_data.xlsx`
 ### 2. Training and testing with new data
 To train and test the model with new data, follow these steps:
 1. Clone this github repository
-2. Prepare new data
-   - The dataset must be structured with the first three columns (x1, x2, x3) representing the input variables, and the last column (y) representing the target variable to be predicted
+2. Prepare new dataset
+   - The new dataset must be structured with the first three columns (x1, x2, x3) representing the input variables and the last column (y) representing the target variable to be predicted
    - You can refer to the `example_new_data.csv` file located in the `data/` folder.
 3. Run the `RadialBasisFunctions_Newdata.ipynb`
 
