@@ -1,8 +1,14 @@
 # Metamodel-RBF
-Radial Basis Function (RBF)
+This repository contains the code for implementing the Radial Basis Function (RBF) model and the dataset used in **"Accentuating the Ambient Curing Behavior of Geopolymers: Metamodel-Guided Optimization for Fast-Curing Geopolymers with High Flexural Strength"** published in **Digital Discovery**.
 
-논문과 관련된 정보 및 githup repository의 목적 포함
-Design of Advanced Energy Systems (IDAES)가 scientific community에서 자유롭게 사용 가능한지 명시
+This repository serves two main purposes:
+1. To reproduce the results presented in the paper by providing the code and dataset
+2. To enable the use of the code in optimizing multi-variant problems for targeted properties
+
+This code is implemented based on the IDAES Process Systems Engineering Framework using pyomo, developed by the Institute for the Design of Advanced Energy Systems (IDAES). 
+
+The IDAES libraries used in this work are freely accessible to the scientific community.
+- IDAES | [Website](https://idaes-pse.readthedocs.io/en/stable/index.html) | [GitHub](https://github.com/IDAES/idaes-pse)
 
 ## Installation
 ### Requirements
@@ -55,6 +61,8 @@ To train and test the model with new data, follow these steps:
 ![Figure4](https://github.com/user-attachments/assets/4d77b35b-aeab-4df6-b0cf-adbd3308a1de)
 
 ### RBF models for curing time (Figure 5)
+![Figure5](https://github.com/user-attachments/assets/fd163244-ba2b-45ff-8e24-61cc084338c1)
+
 
 ## License
 MIT License
