@@ -25,23 +25,23 @@ $ source ./CodeName_venv/bin/activate
 
 ## Usage
 This repository provides two Jupyter Notebooks:
-1. To **reproduce the results** from the paper
-2. To **train and test the model with new data**
+1. **Reproducing the results presented in the paper**
+2. **Training and testing the model with new data**
 
 ### 1. Reproducing the results from the paper
 To reproduce the results presented in the paper, follow these steps:
-1. Clone our github repository
+1. Clone this github repository
 2. Run the `RadialBasisFunctions.ipynb`
 
-The required datasets are located in the `data/` folder as CSV files. These datasets are from the experimental results presented in the paper.
+The required datasets, `curing_time_data.xlsx` and `flexural_strength_data.xlsx`, are located in the `data/` folder. These datasets are from the experimental results in the paper. To fully reproduce Figures 4 and 5 from the paper, simply change the **sheet_name** in the dataset as needed.
 
 ### 2. Training and testing with new data
-To train and test the model with new data, run the following steps:
-1. Clone our github repository
+To train and test the model with new data, follow these steps:
+1. Clone this github repository
 2. Prepare new data
-   - Format: The new data should be in CSV format
-   - Structure: The first three columns represent the input variables. The last column represents the target variable to be predicted.
-4. Run the `RadialBasisFunctions_Newdata.ipynb`
+   - The dataset must be structured with the first three columns (x1, x2, x3) representing the input variables, and the last column (y) representing the target variable to be predicted
+   - You can refer to the `example_new_data.csv` file located in the `data/` folder.
+3. Run the `RadialBasisFunctions_Newdata.ipynb`
 
 ## Results
 
