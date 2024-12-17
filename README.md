@@ -7,8 +7,8 @@ This repository serves two main purposes:
 
 This code is implemented based on the IDAES Process Systems Engineering Framework using pyomo, developed by the Institute for the Design of Advanced Energy Systems (IDAES). 
 
-The IDAES libraries used in this work are freely accessible to the scientific community.
-- IDAES | [Website](https://idaes-pse.readthedocs.io/en/stable/index.html) | [GitHub](https://github.com/IDAES/idaes-pse)
+The IDAES libraries used in this work are freely accessible.
+- IDAES | [Website](https://idaes-pse.readthedocs.io/en/stable/index.html) | [GitHub](https://github.com/IDAES/idaes-pse) | [License](https://idaes-pse.readthedocs.io/en/stable/explanations/license.html)
 
 ## Installation
 ### Requirements
