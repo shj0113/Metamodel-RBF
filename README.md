@@ -45,12 +45,16 @@ The required datasets, `curing_time_data.xlsx` and `flexural_strength_data.xlsx`
 To train and test the model with new data, follow these steps:
 1. Clone this github repository
 2. Prepare new dataset
-   - The new dataset must be structured with the first three columns (x1, x2, x3) representing the input variables and the last column (y) representing the target variable to be predicted
+   - The new dataset must be structured with the first three columns **(x1, x2, x3)** representing the input variables and the last column **(y)** representing the target variable to be predicted
    - You can refer to the `example_new_data.csv` file located in the `data/` folder.
 3. Run the `RadialBasisFunctions_Newdata.ipynb`
 
 ## Results
 
+### RBF models for flexural strength (Figure 4)
+![Figure4](https://github.com/user-attachments/assets/4d77b35b-aeab-4df6-b0cf-adbd3308a1de)
+
+### RBF models for curing time (Figure 5)
 
 ## License
 MIT License
