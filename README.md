@@ -22,7 +22,7 @@ $ conda activate rbf
 ```
 
 ### Dependencies and packages
-Install the required dependencies and packages using pip:
+We install the required dependencies and packages using pip:
 ```
 (rbf) $ pip install idaes-pse==1.13.0 
 (rbf) $ pip install scipy pandas numpy matplotlib
