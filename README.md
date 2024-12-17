@@ -1,5 +1,5 @@
 # Metamodel-RBF
-This repository contains the code for implementing the Radial Basis Function (RBF) model and the dataset used in **"Accentuating the Ambient Curing Behavior of Geopolymers: Metamodel-Guided Optimization for Fast-Curing Geopolymers with High Flexural Strength"** published in **Digital Discovery**.
+This repository contains the code for implementing the Radial Basis Function (RBF) model and the dataset used in **"Accentuating the Ambient Curing Behavior of Geopolymers: Metamodel-Guided Optimization for Fast-Curing Geopolymers with High Flexural Strength"** published in [**Digital Discovery**](https://pubs.rsc.org/en/journals/journalissues/dd#!recentarticles&adv).
 
 This repository serves two main purposes:
 1. To reproduce the results presented in the paper by providing the code and dataset
