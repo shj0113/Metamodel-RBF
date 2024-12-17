@@ -18,7 +18,7 @@ The IDAES libraries used in this work are freely accessible to the scientific co
 ### Virtual environment
 We highly recommend creating a virtual environment using [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) to manage versions and prevent conflicts with other packages.
 
-We create a virtual environment with a name (e.g., `rbf`):
+We create a virtual environment with a name of your choice (in this example, `rbf`):
 ```
 $ conda create -n rbf python=3.7
 ```
