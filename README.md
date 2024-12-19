@@ -3,7 +3,7 @@ This repository contains the code for implementing the Radial Basis Function (RB
 
 This repository serves two main purposes:
 1. To reproduce the results presented in the paper by providing the code and dataset
-2. To enable the use of the code in optimizing multi-variant problems for targeted properties
+2. To solve multi-variant optimization problems using new data for predicting material properties
 
 This code is implemented based on the IDAES Process Systems Engineering Framework using pyomo, developed by the Institute for the Design of Advanced Energy Systems (IDAES). 
 
@@ -45,7 +45,7 @@ To reproduce the results presented in the paper, follow these steps:
 1. Clone this github repository
 2. Run the `RadialBasisFunctions.ipynb`
 
-The required datasets, `curing_time_data.xlsx` and `flexural_strength_data.xlsx`, are located in the `data/` folder. These datasets are from the experimental results in the paper. To fully reproduce Figures 4 and 5 from the paper, simply change the **sheet_name** in the dataset as needed.
+The required datasets, `curing_time_data.xlsx` and `flexural_strength_data.xlsx`, are located in the `data/` folder. These datasets are from the experimental results in the paper (Tables S2, S3, and S4 in the supplementary information). To fully reproduce Figures 4 and 5 from the paper, simply change the **sheet_name** in the dataset as needed.
 
 ### 2. Training and testing with new data
 To train and test the model with new data, follow these steps:
